@@ -1,0 +1,122 @@
+/* =========================
+   AEROPULSE GLOBAL STYLES
+   ========================= */
+
+:root {
+  font-family: "Segoe UI", Arial, sans-serif;
+
+  color: #17202a;
+  background: #eef7f8;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =========================
+   PAGE
+   ========================= */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: #eef7f8;
+}
+
+
+/* =========================
+   ROOT CONTAINER
+   ========================= */
+
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  border: none;
+
+  box-sizing: border-box;
+
+  text-align: left;
+
+  display: block;
+}
+
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h1,
+h2,
+h3 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #123b63;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+/* =========================
+   TEXT
+   ========================= */
+
+p {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+span,
+strong,
+small,
+label,
+select,
+option {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+/* =========================
+   FORM ELEMENTS
+   ========================= */
+
+select {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+/* =========================
+   CODE
+   ========================= */
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+}
